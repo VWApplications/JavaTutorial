@@ -2,6 +2,9 @@ package intermediario.exemplos;
 
 import java.util.Random;
 
+/*
+ * Fábrica de cartas de baralho
+ */
 public class SorteioDeCartas {
 
     public static void main(String[] args) {

@@ -1,7 +1,11 @@
 package intermediario;
 
+/*
+ * Arrays multidimensionais ou matrizes
+ * Arrays bidirecionais são os mais usados,
+ * os multidimensionais são usandos mais em cálculos cientificos e gráficos
+ */
 public class ArrayMultidimensional {
-    // Para percorrer um array sempre começa no 0, ou seja, a linha 1 é o que tem o indice 0
 
     public static void main(String[] args) {
         // Array bidimensional

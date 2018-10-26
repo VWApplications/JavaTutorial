@@ -2,6 +2,9 @@ package intermediario;
 
 import java.util.Arrays;
 
+/*
+ * Arrays unidimensionais ou vetores
+ */
 public class ArrayUnidimensional {
 
     public static void main(String[] args) {

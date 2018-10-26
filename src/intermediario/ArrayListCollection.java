@@ -2,6 +2,9 @@ package intermediario;
 
 import java.util.ArrayList;
 
+/*
+ * Lista presente em Estrutura de Dados
+ */
 public class ArrayListCollection {
 
     public static void main(String[] args) {

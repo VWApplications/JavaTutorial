@@ -32,6 +32,7 @@ public class Variaveis {
         float pontoFlutuante = 1.203F; // 32 bits
         double pontoFlutuantePrecisaoDupla = 1.7976931348623157E+308D; // 64 bits, padrão IEEE 754
 
+
         // Representação na forma binária
         binario = 0b00000011; // 8 bits ou 1 byte de informação
         System.out.println(binario);
@@ -41,11 +42,13 @@ public class Variaveis {
         inteiro = inteiroPequeno;
         System.out.println(inteiro);
 
+
         // Cast explícito (cuidado para não estourar a memória)
         // int só pode 32 bits enquanto o long pode 64 bits
         inteiroGrande = 10000;
         inteiro = (int) inteiroGrande;
         System.out.println(inteiro);
+
 
         // Variável de referencia que aponta para um objeto String.
         String titulo = "Variáveis e Sintaxe";
@@ -57,21 +60,24 @@ public class Variaveis {
         // Para limpar a variável, ou seja, não apontar para nenhum objeto.
         titulo = null;
 
+
         // Criar constantes (não pode ser modificado)
         final double PI = 3.141592;
         final char SEXO_MASCULINO = 'M';
         final char SEXO_FEMININO = 'F';
 
+
         // Conversão
         Double wrapper = 200.5;
         System.out.println(wrapper);
-        System.out.println(wrapper.intValue());
+        System.out.println(wrapper.intValue()); // voltando para int
 
         pontoFlutuantePrecisaoDupla = Double.parseDouble("695.33");
         System.out.println(pontoFlutuantePrecisaoDupla);
 
         inteiro = Integer.parseInt("695");
         System.out.println(inteiro);
+
 
         // Converte binário para inteiro
         inteiro = Integer.valueOf("101011", 2);

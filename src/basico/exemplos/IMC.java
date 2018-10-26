@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
  * Calula o indice de massa corporal (IMC)
  * IMC = peso / (altura * altura) kg/m
  */
-public class imc {
+public class IMC {
 
     public static void main(String[] args) {
         System.out.println("Calculo do IMC");
