@@ -65,6 +65,7 @@ public class Variaveis {
         // Conversão
         Double wrapper = 200.5;
         System.out.println(wrapper);
+        System.out.println(wrapper.intValue());
 
         pontoFlutuantePrecisaoDupla = Double.parseDouble("695.33");
         System.out.println(pontoFlutuantePrecisaoDupla);
