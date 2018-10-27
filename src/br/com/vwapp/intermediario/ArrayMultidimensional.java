@@ -1,4 +1,4 @@
-package intermediario;
+package br.com.vwapp.intermediario;
 
 /*
  * Arrays multidimensionais ou matrizes

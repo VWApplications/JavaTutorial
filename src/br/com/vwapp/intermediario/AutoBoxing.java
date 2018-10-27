@@ -1,4 +1,4 @@
-package intermediario;
+package br.com.vwapp.intermediario;
 
 /*
  * Empacota e Desempacota um código - teoria de versões do java

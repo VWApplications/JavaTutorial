@@ -1,4 +1,4 @@
-package basico.exemplos;
+package br.com.vwapp.basico.exemplos;
 
 import java.util.Scanner;
 

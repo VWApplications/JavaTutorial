@@ -1,4 +1,4 @@
-package basico;
+package br.com.vwapp.basico;
 
 /*
  * Operador unário: -5

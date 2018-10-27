@@ -1,4 +1,4 @@
-package basico;
+package br.com.vwapp.basico;
 
 /*
  * Estruturas de repetição serve para executar um ou mais comandos N vezes

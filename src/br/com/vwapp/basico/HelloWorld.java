@@ -1,4 +1,4 @@
-package basico;
+package br.com.vwapp.basico;
 
 /*
  * Classe com o famoso Hello World para iniciar o tutorial.

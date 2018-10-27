@@ -1,4 +1,4 @@
-package basico;
+package br.com.vwapp.basico;
 
 /*
  * Estruturas de decisão servem para executar algo dependendo de uma condição passada.

@@ -1,4 +1,4 @@
-package basico;
+package br.com.vwapp.basico;
 
 /*
  * Apresentar os conceitos de variáveis
@@ -6,7 +6,7 @@ package basico;
  * Variável de referencia é toda aquela variável que aponta para um objeto.
  *
  * Variáveis primitivas são aquelas que armazenam um valor
- * Classes Wrappers são empacotadores de (tipos primitivos) e oferecem alguns recursos de conversão para serem
+ * Cachorro Wrappers são empacotadores de (tipos primitivos) e oferecem alguns recursos de conversão para serem
  * utilizados na linguagem java.
  * Tipos primitivos:
  *  - Binarios: byte (Bytes)

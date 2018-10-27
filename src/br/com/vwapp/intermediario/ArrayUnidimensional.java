@@ -1,4 +1,4 @@
-package intermediario;
+package br.com.vwapp.intermediario;
 
 import java.util.Arrays;
 
@@ -7,7 +7,14 @@ import java.util.Arrays;
  */
 public class ArrayUnidimensional {
 
+    /**
+     *
+     * Método principal para executar um programa
+     * @param args dados passados como parâmetro (java arquivo.class meuArgumento1 "meu argumento 2")
+     */
     public static void main(String[] args) {
+
+        if (args.length > 0) System.out.println(args[0]);
 
         // Criação
         String[] paises = {"Brasil", "China", "Arabia"}; // Array de strings com 2 elementos

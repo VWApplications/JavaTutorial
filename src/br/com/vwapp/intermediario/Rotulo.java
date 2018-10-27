@@ -1,4 +1,4 @@
-package intermediario;
+package br.com.vwapp.intermediario;
 
 /*
  * Rotulo quebra o fluxo aninhado que desejar com break ou continue

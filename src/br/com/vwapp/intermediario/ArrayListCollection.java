@@ -1,4 +1,4 @@
-package intermediario;
+package br.com.vwapp.intermediario;
 
 import java.util.ArrayList;
 

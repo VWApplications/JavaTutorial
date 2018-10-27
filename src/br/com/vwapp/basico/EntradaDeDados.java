@@ -1,6 +1,5 @@
-package basico;
+package br.com.vwapp.basico;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 /*
@@ -9,8 +8,6 @@ import java.util.Scanner;
 public class EntradaDeDados {
 
     public static void main(String[] args) {
-        // Dados passados como parâmetro (java EntradaDeDados meuArgumento1 "meu argumento 2")
-        // System.out.println(args[0]);
 
         // Entrada de dados pelo usuário
         System.out.print("Entre com seu nome: ");

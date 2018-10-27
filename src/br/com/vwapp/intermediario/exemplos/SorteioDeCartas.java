@@ -1,4 +1,4 @@
-package intermediario.exemplos;
+package br.com.vwapp.intermediario.exemplos;
 
 import java.util.Random;
 
