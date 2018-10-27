@@ -4,8 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
         conta();
-        // matematica();
-        // enumerate();
     }
 
     private static void conta() {
@@ -31,18 +29,5 @@ public class Main {
 
         Conta.getSaldoTotalDoBanco();
     }
-
-//    private static void matematica() {
-//        Matematica matematica = new Matematica();
-//        System.out.println(matematica.soma(0,1, 5, 6, 7, 29.40, 33.20));
-//        double[] numeros = {1, 5, 6, 7, 29.40, 33.20};
-//        System.out.println(matematica.soma(numeros));
-//    }
-//
-//    private static void enumerate() {
-//        System.out.println(Enumeracao.X);
-//        System.out.println(Enumeracao.X.valor);
-//        Enumeracao.imprimeNumeroCardinal(Enumeracao.X, Enumeracao.X, Enumeracao.I);
-//    }
 
 }

@@ -1,12 +1,8 @@
 package br.com.vwapp.orientacaoaobjetos.banco;
 
-import br.com.vwapp.orientacaoaobjetos.banco.Conta;
-
 import java.util.ArrayList;
 
 /**
- * Cliente de um banco
- *
  * ASSOCIAÇÃO: É quando dois objetos se relacionam de forma completamente independentes. Por exemplo: uma relação
  * entre professor e aluno, professor pode ter N alunos e alunos podem ter N professores, ambos podem existir
  * independente do outro.
