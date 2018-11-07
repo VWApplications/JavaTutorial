@@ -29,8 +29,8 @@ package br.com.vwapp.orientacaoaobjetos.banco;
  *      PUBLIC: visibilidade total
  *      SEM MODIFICADOR: visibilidade dentro do mesmo pacote
  *
- * ENCAPSULAMENTO é você encapsular seus atributos em métodos GETs e SETs para que você tenha o controle
- * de como os outros acessam e modificam seus atributos.
+ * ENCAPSULAMENTO é você encapsular seus atributos como privado e criando métodos GETs e SETs para que você tenha
+ * o controle de como os outros acessam e modificam seus atributos.
  *
  * ATRIBUTOS E MÉTODOS ESTÁTICOS: são métodos e atributos da classe e não ao objeto da classe, por exemplo,
  * toda vez que eu realizar um deposito ou um saque o saldo total do banco deve decrementar ou incrementar,
@@ -130,13 +130,13 @@ public abstract class Conta {
     }
 
     /**
-     * Método SET de encapsulamento para o saldo da conta
+     * Método SET de encapsulamento para a senha da conta
      *
      * @param senhaAntiga senha antiga de acesso
      * @param novaSenha nova senha de acesso
      */
     public final void setSenha(String senhaAntiga, String novaSenha) {
-        if(this.verificaSenha(senha)) {
+        if(this.verificaSenha(senhaAntiga)) {
             this.senha = novaSenha;
             System.out.println("Senha alterada com sucesso!");
         } else {

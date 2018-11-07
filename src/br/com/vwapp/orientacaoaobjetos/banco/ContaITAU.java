@@ -9,8 +9,6 @@ package br.com.vwapp.orientacaoaobjetos.banco;
  * em relação a classe PAI, podemos sobrescreve-la (@Override()) e utilizar o super() se precisar consultar a
  * implementação da classe pai.
  *
- * POLIMORFISMO - SOBRECARGA DE MÉTODOS: ...
- *
  */
 public final class ContaITAU extends Conta {
 
