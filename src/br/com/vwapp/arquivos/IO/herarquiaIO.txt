@@ -1,0 +1,24 @@
+Stream de manipulação de Bytes:
+
+- Object
+  - InputStream
+    - FileInputStream
+    - FilterInputStream
+  - OutputStream
+    - FileOutputStream
+    - FilterOutputStream
+
+
+Streams de manipulação de Caracteres:
+
+- Object
+  - Reader
+    - BufferedReader (Leitor de texto com buffer)
+    - InputStreamReader
+  - Writer
+    - BufferedWriter (Escritor de texto com buffer)
+    - PrintWriter
+    - OutputStreamWriter
+
+- Paths (especifica caminhos de arquivos e diretorios)
+- Files (cria arquivos e diretorios_
