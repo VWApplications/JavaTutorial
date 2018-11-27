@@ -1,6 +1,8 @@
 package br.com.vwapp.arquivos;
 
-public class Conta {
+import java.io.Serializable;
+
+public class Conta implements Serializable {
 
     private double saldo;
     private String cliente;
