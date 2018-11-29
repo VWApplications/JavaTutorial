@@ -1,8 +1,8 @@
-package br.com.vwapp.orientacaoaobjetos.banco;
+package br.com.vwapp.poo.banco;
 
 /**
  * HERANÇA: Quando você precisa dos atributos e métodos de outra classe você pode herdar esses atributos e métodos,
- * por exemplo, uma conta do banco do brasil (ContaBB) é uma Conta, ou seja, tudo que tem em Conta tem em ContaBB.
+ * por exemplo, uma conta do banco ITAU (ContaITAU) é uma Conta, ou seja, tudo que tem em Conta tem em ContaITAU.
  * Para que você possa usar a herança precisa que o construtor tenha acesso ao construtor da classe PAI com o super()
  *
  * POLIMORFISMO - SOBRESCRITA DE MÈTODO: quando uma subclasses (FILHA) precisam ter comportamentos diferentes
@@ -10,10 +10,13 @@ package br.com.vwapp.orientacaoaobjetos.banco;
  * implementação da classe pai.
  *
  */
-public final class ContaBB extends Conta {
+public final class ContaITAU extends Conta {
 
-    ContaBB() { super(); }
-    ContaBB(double saldo, String senha) { super(saldo, senha); }
+    ContaITAU() {
+        super();
+        super.senha = "itau1234";
+    }
+    ContaITAU(double saldo, String senha) { super(saldo, senha); }
 
     /**
      * Método responsável por transferir um determinado valor
@@ -24,25 +27,15 @@ public final class ContaBB extends Conta {
      */
     public void transferePara(Conta destino, double valor) {
         System.out.print("Transferencia: ");
-        if (destino instanceof ContaBB) {
-            System.out.println("Banco do Brasil -> Banco do Brasil");
+        if (destino instanceof ContaITAU) {
+            System.out.println("Banco do ITAU -> Banco do ITAU");
             this.saca(valor);
         } else {
-            System.out.println("Banco do Brasil -> Banco do ITAU");
-            this.saca(valor + 40.00);
+            System.out.println("Banco do ITAU -> Banco do Brasil");
+            this.saca(valor + 66.00);
         }
 
         destino.deposita(valor);
     }
 
-    /**
-     * Verifica o saldo bancário do cliente
-     *
-     * Matematica de método:
-     */
-    @Override
-    void exibeSaldo() {
-        System.out.println("bem vindo ao Banco do Brasil");
-        super.exibeSaldo();
-    }
 }

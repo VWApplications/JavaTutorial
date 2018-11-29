@@ -1,4 +1,4 @@
-package br.com.vwapp.orientacaoaobjetos.matematica;
+package br.com.vwapp.poo.matematica;
 
 /**
  * INTERFACES: interface são classes 100% abstratas, ou seja, não há implementação, ela serve para padronizar

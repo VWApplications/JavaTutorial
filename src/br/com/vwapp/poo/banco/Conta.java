@@ -1,4 +1,4 @@
-package br.com.vwapp.orientacaoaobjetos.banco;
+package br.com.vwapp.poo.banco;
 
 /**
  * ORIENTAÇÃO A OBJETOS é o paradigma de programação que mais

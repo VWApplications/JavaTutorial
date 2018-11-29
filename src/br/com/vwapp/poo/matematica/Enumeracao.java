@@ -1,4 +1,4 @@
-package br.com.vwapp.orientacaoaobjetos.matematica;
+package br.com.vwapp.poo.matematica;
 
 /**
  * Enumerações são constantes que

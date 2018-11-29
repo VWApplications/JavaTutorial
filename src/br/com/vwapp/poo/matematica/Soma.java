@@ -1,4 +1,4 @@
-package br.com.vwapp.orientacaoaobjetos.matematica;
+package br.com.vwapp.poo.matematica;
 
 /**
  *  MÉTODOS SOBRECARREGADOS: são métodos que tem o mesmo nome, porém com assinaturas diferentes, ou seja,

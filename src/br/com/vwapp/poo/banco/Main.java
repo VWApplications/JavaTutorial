@@ -1,4 +1,4 @@
-package br.com.vwapp.orientacaoaobjetos.banco;
+package br.com.vwapp.poo.banco;
 
 public class Main {
 
