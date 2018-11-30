@@ -19,7 +19,7 @@ import br.com.vwapp.threads.conta.ContaConjuntaSincronizada;
 public class Sincronizacao implements Runnable {
 
     ContaConjuntaSincronizada contaSincronizada = new ContaConjuntaSincronizada();
-    ContaConjuntaNaoSincronizada contaNaoSincronizada = new ContaConjuntaNaoSincronizada();
+    // ContaConjuntaNaoSincronizada contaNaoSincronizada = new ContaConjuntaNaoSincronizada();
 
     @Override
     public void run() {
