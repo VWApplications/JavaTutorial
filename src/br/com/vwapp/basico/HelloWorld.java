@@ -54,6 +54,27 @@ package br.com.vwapp.basico;
  * MDA: MODEL DRIVEN ARCHITECTURE / Arquitetura de Modelagem Dirigida - é uma nova forma de se escrever especificações
  *      e desenvolver aplicações, com base em uma PIM (Modelo plataforma-independente).
  * OOAD: object-oriented analysis and design - Análise e Projetos Orintado a Objetos.
+ *
+ * Criar um .JAR file no IntelliJ:
+ * .JAR: File -> Project Structure -> Artifacts -> + -> JAR -> from module with dependecy ->
+ * escolha o arquivo main (executavel)
+ * Com isso vai em Build -> Build Artifacts... selecione o jar e clique em build.
+ * O .jar vai esta dentro da pasta out -> artifacts
+ * Para executar: java -jar <caminho-do-jar>.jar
+ *
+ * Adicionar um .JAR no IntelliJ:
+ * File -> Project Structure -> Modules, aba de dependencias e clique no + no canto superior direito,
+ * lá selecione o JARs or directories.
+ *
+ * Classpath (caminho das classes):
+ * Nós só podemos executar os programas se nós informarmos para nossa JVM onde é que estão esses programas.
+ * Dentro da IDE todas as classes que foi criada dentro de src, assim como os arquivos .jar são colocados
+ * no classpath para você automaticamente quando vc executa um programa na sua IDE.
+ *
+ * Se vc tentar executar esses programas pelo prompt, sem estar no diretorio correto ou informar para sua JVM,
+ * qual o JAR que contêm aquele programa, vc não vai conseguir executa-lo.
+ *
+ * java -classpath <caminho1>.jar:<caminho2>.jar <caminho>.AlgumaClasseDentroDoJAR
  */
 public class HelloWorld {
 
