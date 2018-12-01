@@ -11,9 +11,17 @@ package br.com.vwapp.avancado;
  * Classe Anônima é uma classe sem nome criada dentro de um método diretamente ou passando como parâmetro.
  *
  */
+@Anotacao(
+    instituicao = "Universidade XTI",
+    projeto = "Classes Aninhadas",
+    dataCriacao = "08/10/2018",
+    criador = "Ricardo Lopes Costa",
+    revisao = 2,
+    errosCorrigidos = {"0001", "0002"}
+)
 public class ClasseAninhada {
 
-    String texto = "Ola Mundo!";
+    public String texto = "Ola Mundo!";
 
     public class Aninhamento {
         public void imprimeTexto() {
@@ -33,6 +41,10 @@ public class ClasseAninhada {
             }
         };
         return aninhado;
+    }
+
+    public void imprimeTexto(String texto) {
+        System.out.println(texto);
     }
 
     public static void main(String[] args) {
