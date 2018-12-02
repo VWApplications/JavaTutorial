@@ -64,13 +64,14 @@ public abstract class Conta {
 
     // CONSTRUTORES
 
-    Conta() {
+    public Conta() {
         this.senha = "admin1234";
         this.setSaldo(0);
     }
 
-    Conta(double saldo, String senha) {
+    public Conta(double saldo, String senha) {
         this.setSaldo(saldo);
+        Conta.saldoTotalDoBanco = saldo;
         this.senha = senha;
     }
 
@@ -82,7 +83,7 @@ public abstract class Conta {
     /**
      * Verifica o saldo bancário do cliente
      */
-    void exibeSaldo() {
+    public void exibeSaldo() {
         System.out.println("Seu saldo é de " + this.getSaldo());
     }
 
@@ -92,7 +93,7 @@ public abstract class Conta {
      *
      * @param valor valor a ser sacado.
      */
-    void saca(double valor) {
+    public void saca(double valor) {
         this.saldo -= valor;
         Conta.saldoTotalDoBanco -= valor;
     }
@@ -103,7 +104,7 @@ public abstract class Conta {
      *
      * @param valor valor a ser depositado.
      */
-    void deposita(double valor) {
+    public void deposita(double valor) {
         this.saldo += valor;
         Conta.saldoTotalDoBanco += valor;
     }

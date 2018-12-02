@@ -12,11 +12,11 @@ package br.com.vwapp.poo.banco;
  */
 public final class ContaITAU extends Conta {
 
-    ContaITAU() {
+    public ContaITAU() {
         super();
         super.senha = "itau1234";
     }
-    ContaITAU(double saldo, String senha) { super(saldo, senha); }
+    public ContaITAU(double saldo, String senha) { super(saldo, senha); }
 
     /**
      * Método responsável por transferir um determinado valor

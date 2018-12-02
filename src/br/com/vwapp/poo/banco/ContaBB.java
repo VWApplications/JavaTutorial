@@ -12,8 +12,8 @@ package br.com.vwapp.poo.banco;
  */
 public final class ContaBB extends Conta {
 
-    ContaBB() { super(); }
-    ContaBB(double saldo, String senha) { super(saldo, senha); }
+    public ContaBB() { super(); }
+    public ContaBB(double saldo, String senha) { super(saldo, senha); }
 
     /**
      * Método responsável por transferir um determinado valor
@@ -41,7 +41,7 @@ public final class ContaBB extends Conta {
      * Matematica de método:
      */
     @Override
-    void exibeSaldo() {
+    public void exibeSaldo() {
         System.out.println("bem vindo ao Banco do Brasil");
         super.exibeSaldo();
     }
