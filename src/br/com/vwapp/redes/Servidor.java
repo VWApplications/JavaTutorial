@@ -27,15 +27,16 @@ public class Servidor {
     public static void main(String[] args) throws Exception {
 
         // Objeto que representa nosso servidor, passando sua porta
-        ServerSocket server = new ServerSocket(5000);
+        try(ServerSocket server = new ServerSocket(5050)) {
 
-        while(true) {
-            // Espera uma resposta/socket do cliente e o armazena
-            Socket socket =  server.accept();
+            while (true) {
+                // Espera uma resposta/socket do cliente e o armazena
+                Socket socket = server.accept();
 
-            // Escrever uma resposta para o cliente
-            try (PrintWriter writer = new PrintWriter(socket.getOutputStream())) {
-                writer.println("Aprenda Java e seja contratado!");
+                // Escrever uma resposta para o cliente
+                try (PrintWriter writer = new PrintWriter(socket.getOutputStream())) {
+                    writer.println("Aprenda Java e seja contratado!");
+                }
             }
         }
     }
